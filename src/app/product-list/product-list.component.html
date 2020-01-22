@@ -14,6 +14,10 @@
   <button (click)="share()">
     Share
   </button>
+  <app-product-alerts 
+    [producto]="product"
+    (notify)="onNotify()">
+  </app-product-alerts>
 </div>
 <!-- 
 Copyright Google LLC. All Rights Reserved.
